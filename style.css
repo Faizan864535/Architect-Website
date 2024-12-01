@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 16.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.66%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-block {
+  width: 80%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.banner {
+  width: 100%;
+  min-height: 80vh;
+  background-image: url(Assets/images/bannernew2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-block h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+.text-block p {
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-block2 h1 {
+text-decoration: underline;
+}
+.p40{
+padding: 40px 0px;
+}
+
+.font-size{
+  font-size: 23px;
+}
+footer{
+  background-color: rgb(241, 240, 225);
+  height: 50vh;
+  padding-top: 25px;
+}
+
+.footer-menu li{
+  list-style: none;
+  font-size: 20px;
+  padding: 7px 17px;
+}
+.footer-menu li h3{
+  font-weight: 600;
+}
+.banner2{
+  background-image: url(Assets/images/banner3.png);
+  width: 100%;
+  min-height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.textblock-3{
+  width: 80%;
+  color:white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.textblock-3 h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+.textblock-3 p{
+  font-size: 23px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .text-block h1 {
+    font-size: 36px;
+  }
+
+  .text-block p {
+    font-size: 15px;
+  }
+
+  .textblock-3 h1 {
+    font-size: 36px;
+  }
+
+  .textblock-3 p {
+    font-size: 15px;
+  }
+
+  .card {
+    display: block;
+  }
+  
+  .text-block2 p {
+    font-size: 17px;
+  }
+  .list h3 {
+    font-size: 15px;
+  }
+  .list p{
+    font-size: 11px;
+  }
+  footer {
+    height: 50vh;
+  }
+  .footer-menu li{
+    font-size: 14px;
+    padding: 4px 17px;
+  }
+ .footer-menu li h3 {
+  font-size: 18px;
+ }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
